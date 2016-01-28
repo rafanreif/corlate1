@@ -12,7 +12,7 @@ angular.module('corlateApp')
   
   	$scope.buscar = function(){
 
-  		if($scope.busqueda == undefined){
+  		if($scope.busqueda == undefined || $scope.busqueda == ''){
   			alert('error');
   		}
   		
